@@ -1,0 +1,16 @@
+[2026-06-13 14:30:54] 读取文件 readme.txt，大小 362 字节
+[2026-06-13 14:30:54] 分块完成，共 5 块
+[2026-06-13 14:30:54] 连接到服务器 127.0.0.1:8888
+[2026-06-13 14:30:54] 发送 Initialization 报文: Type=1, N=5
+[2026-06-13 14:30:54] 收到 agree 报文: Type=2
+[2026-06-13 14:30:54] 发送 reverseRequest 报文: 块=1, Type=3, Length=90
+[2026-06-13 14:30:54] 收到 reverseAnswer 报文: 块=1, Type=4, Length=90
+[2026-06-13 14:30:54] 发送 reverseRequest 报文: 块=2, Type=3, Length=57
+[2026-06-13 14:30:54] 收到 reverseAnswer 报文: 块=2, Type=4, Length=57
+[2026-06-13 14:30:54] 发送 reverseRequest 报文: 块=3, Type=3, Length=51
+[2026-06-13 14:30:54] 收到 reverseAnswer 报文: 块=3, Type=4, Length=51
+[2026-06-13 14:30:54] 发送 reverseRequest 报文: 块=4, Type=3, Length=97
+[2026-06-13 14:30:54] 收到 reverseAnswer 报文: 块=4, Type=4, Length=97
+[2026-06-13 14:30:54] 发送 reverseRequest 报文: 块=5, Type=3, Length=67
+[2026-06-13 14:30:54] 收到 reverseAnswer 报文: 块=5, Type=4, Length=67
+[2026-06-13 14:30:54] 反转完成，输出文件: reversed_output.txt
